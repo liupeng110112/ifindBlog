@@ -783,7 +783,7 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .card{ padding: 20px 40px; margin-top: 50px; /*border-radius: 7px; box-shadow: 1px 1px 5px #eee;*/ }
 .date_label{position: relative; float:left; width:48px; height:50px; color: #fff; text-align: center; background: #000; margin-left: -56px; margin-top: -10px; }
 
-.date_label::before{position: absolute; content: "";border: 1.5em solid #000; }
+.date_label::before{position: absolute; content: "";border: 1.5em solid #0593d3; }
 .day_month{ font-size: 18px;} .year{ font-size: 12px; }
 @media (min-width:768px) and (max-width:979px){.date_label{ margin:-26px 50px 30px -30px;} .date_label::before{border-bottom-color: transparent; border-bottom-width: 1.3em; top: 100%; right: 0;} .date_label::after{top: 0;right: 100%; border-right: 0.3em solid #0593d3;border-top: 0.4em solid transparent;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important ;} .visible-tablet{display:inherit !important;} .hidden-tablet{display:none !important;}}
 @media (max-width:767px){.date_label{ margin:-26px 50px 0 -35px;} .date_label::before{top: 100%;left: 0;border-bottom: 1em solid transparent;} /*hr{background: url('../img/shadow_middle_bg.png') no-repeat 50% 0}*/ .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important;} .visible-phone{display:inherit !important;} .hidden-phone{display:none !important;}}
